@@ -1,5 +1,4 @@
 
-
 a {
     color:#ffffff;
     text-decoration: none;
@@ -184,15 +183,36 @@ footer div ul li {
         width: 100%;
     }
 }
-@media screen and (max-width: 852px) {
-    #horiseon {
+@media screen and (max-width: 768px) {
+    .about-me {
         margin-right: auto;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 852px) {
+@media screen and (max-width: 768px) {
+    .my-work {
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .resume {
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     #my-picture {
         margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        margin-right: auto;
+        width: 100%;
     }
 }
