@@ -4,6 +4,11 @@ a {
     text-decoration: none;
   }
 
+header {
+    display: block;
+    position: fixed;
+}
+
 .header {
     display: flex;
     flex-flow: wrap;
@@ -22,7 +27,7 @@ a {
     font-size: 50px;
 }
 
-.header div {
+.header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -33,11 +38,11 @@ a {
     font-size: 25px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
@@ -177,12 +182,18 @@ footer div ul li {
     margin-left: 25px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .header {
         margin-right: auto;
         width: 100%;
     }
+} */
+@media screen and (min-width: 992px) {
+    .header {
+    width: 75%;
+    }
 }
+
 @media screen and (max-width: 768px) {
     .about-me {
         margin-right: auto;
