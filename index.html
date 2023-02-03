@@ -11,25 +11,40 @@
 
 <body>
     <header>
-        <section class="header">
-            <h1>Carolina Palacios</h1>
-            <nav>
+        <h1>Carolina Palacios</h1>
+        <nav>
+            <div>
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
+                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-work">My Work</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
-            </nav>
-        </section>
+            </div>
+         </nav>
     </header>
 
     <main>
-        <img id="my-picture" height="300"
-            src="https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/200868455_4404257802919119_3342253973574435895_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=wVx5ZtDCyG8AX_aASQe&_nc_ht=scontent-iad3-2.xx&oh=d21907b0700e8e5b7e04bbcfc989b23f&oe=60CE6D76"
-            alt="Profile picture of Carolina Palacios">
-        <section class="about-me" id="about-me">
-            <h2>About <br>Me</h2>
+        <section class="aside">
+            <div class="side-about-me">
+                <h2>About <br>Me</h2>
+            </div>
+            <div>
+                <h2>My<br> Work</h2>
+            </div>
+            <div class="side-resume">
+                <h2>Resume</h2>
+            </div>
+        </section>
+
+        <section class="my-picture">
+            <figure>
+                <img id="my-picture" height="300" alt="Profile picture of Carolina Palacios" 
+                src="Assets/profile-pic.jpg">
+            </figure>
+        </section>
+
+        <section class="about-me">
             <p>I'm a student at UNC and part-time administrative assistant. I'm from Queens, New York and I recently
                 moved from Durham to Fayetteville, NC. I enjoy hiking with my dog, traveling, and dancing. I've dreamt
                 of being a wildlife veterinarian and working in animal sanctuaries. I want to be able to find a
@@ -37,26 +52,33 @@
         </section>
 
         <section class="my-work" id="my-work">
-            <h2>My<br> Work</h2>
-            <a href="https://carolinapalacios95.github.io/Mod-1-Challenge/" alt="Link to deployed Horiseon Application">
-                <img id="horiseon" height="300" src="Assets/horiseon-demo.png" alt="Screenshot of Horiseon Webpage">
-            </a>
-            <a href="https://carolinapalacios95.github.io/practice-website/" alt="Link to deployed Practice Website">
-                <img id="practice-site" height="300" src="Assets/Practice-Site.PNG" alt="Screenshot of Practice website">
-            </a>
-            <a href="https://carolinapalacios95.github.io/prework-about-me/" alt="Link to deployed About Me webpage">
-                <img id="about-me" height="300" src="Assets/About Me Site.PNG" alt="Screenshot of About Me webpage">
-            </a>
-            <a href="https://carolinapalacios95.github.io/prework-study-guide/" alt="Link to deployed Study Guide webpage">
-                <img id="study-guide" height="300" src="Assets/study-guide.PNG" alt="Screenshot of study-guide webpage">
-            </a>
+            <article class = "card">
+                <a href="https://carolinapalacios95.github.io/Mod-1-Challenge/" alt="Link to deployed Horiseon Application">
+                <img id="horiseon"  src="Assets/horiseon-demo.png" alt="Screenshot of Horiseon Webpage"></a>
+                <h3>Horiseon</h3>
+            </article>
+            <article class = "card">
+                <a href="https://carolinapalacios95.github.io/practice-website/" alt="Link to deployed Practice Website">
+                <img id="practice-site" height="300" src="Assets/Practice-Site.PNG" alt="Screenshot of Practice website"></a>
+                <h3>Practice Site</h3>
+            </article>
+            <article class = "card">
+                <a href="https://carolinapalacios95.github.io/prework-about-me/" alt="Link to deployed About Me webpage">
+                <img id="about-me"  src="Assets/About Me Site.PNG" alt="Screenshot of About Me webpage"></a>
+                <h3>About Me</h3>
+            </article>
+            <article class = "card">
+                <a href="https://carolinapalacios95.github.io/prework-study-guide/" alt="Link to deployed Study Guide webpage">
+                <img id="study-guide"  src="Assets/study-guide.PNG" alt="Screenshot of study-guide webpage"></a>
+                <h3>Study Guide</h3>
+            </article>
         </section>
 
         <section class="resume" id="resume">
-            <h2>Resume</h2>
-            <img id="resume-pic" height="1000" src="Assets/resume.png" alt="Screenshot of my resume">
+            <figure>
+                <img id="resume-pic" src="Assets/resume.png" alt="Screenshot of my resume">
+            </figure>
         </section>
-
     </main>
 
     <footer>
@@ -64,8 +86,7 @@
         <div>
             <ul>
                 <li id="email"><strong>Email:</strong> <a href="#">carolina.palacios1995@gmail.com</a></li>
-                <li id="github"><strong>Github:</strong> <a
-                        href="https://github.com/Carolinapalacios95">Carolinapalacios95</a></li>
+                <li id="github"><strong>Github:</strong> <a href="https://github.com/Carolinapalacios95">Carolinapalacios95</a></li>
                 <li id="phone-number"><strong>646.808.6161</strong></a></li>
             </ul>
         </div>
