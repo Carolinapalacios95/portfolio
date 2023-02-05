@@ -11,6 +11,7 @@
 
 <body>
     <header>
+        <section class="header">
         <h1>Carolina Palacios</h1>
         <nav>
             <div>
@@ -22,19 +23,24 @@
                 </ul>
             </div>
          </nav>
+        </section>
     </header>
 
     <main>
         <section class="aside">
-            <div class="side-about-me">
+            <div class="aside-about-me">
                 <h2>About <br>Me</h2>
             </div>
-            <div>
+            <div class="aside-work">
                 <h2>My<br> Work</h2>
             </div>
-            <div class="side-resume">
+            <div class="aside-resume">
                 <h2>Resume</h2>
             </div>
+        </section>
+
+        <section class="aside-small" #="aside-about-small">
+            <h2>About Me</h2>
         </section>
 
         <section class="my-picture">
@@ -51,30 +57,38 @@
                 fulfilling career that not only pays well, but is also in high demand all over the world.</p>
         </section>
 
-        <section class="my-work" id="my-work">
+        <section class="aside-small" #="aside-work-small">
+            <h2>My Work</h2>
+        </section>
+
+        <section class="my-work">
             <article class = "card">
+                <h3>Horiseon</h3>
                 <a href="https://carolinapalacios95.github.io/Mod-1-Challenge/" alt="Link to deployed Horiseon Application">
                 <img id="horiseon"  src="Assets/horiseon-demo.png" alt="Screenshot of Horiseon Webpage"></a>
-                <h3>Horiseon</h3>
             </article>
             <article class = "card">
+                <h3>Practice Site</h3>
                 <a href="https://carolinapalacios95.github.io/practice-website/" alt="Link to deployed Practice Website">
                 <img id="practice-site" height="300" src="Assets/Practice-Site.PNG" alt="Screenshot of Practice website"></a>
-                <h3>Practice Site</h3>
             </article>
             <article class = "card">
-                <a href="https://carolinapalacios95.github.io/prework-about-me/" alt="Link to deployed About Me webpage">
-                <img id="about-me"  src="Assets/About Me Site.PNG" alt="Screenshot of About Me webpage"></a>
                 <h3>About Me</h3>
+                <a href="https://carolinapalacios95.github.io/prework-about-me/" alt="Link to deployed About Me webpage">
+                <img id="about-me-page"  src="Assets/About Me Site.PNG" alt="Screenshot of About Me webpage"></a>
             </article>
             <article class = "card">
+                <h3>Study Guide</h3>
                 <a href="https://carolinapalacios95.github.io/prework-study-guide/" alt="Link to deployed Study Guide webpage">
                 <img id="study-guide"  src="Assets/study-guide.PNG" alt="Screenshot of study-guide webpage"></a>
-                <h3>Study Guide</h3>
             </article>
         </section>
 
-        <section class="resume" id="resume">
+        <section class="aside-small" #="aside-resume-small">
+            <h2>Resume</h2>
+        </section>
+
+        <section class="resume-section">
             <figure>
                 <img id="resume-pic" src="Assets/resume.png" alt="Screenshot of my resume">
             </figure>
