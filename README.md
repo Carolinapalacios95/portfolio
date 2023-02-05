@@ -22,7 +22,7 @@ The following image shows the web application's appearance and functionality:
 
 
 
-The webpage can be found at [My Portfolio](https://github.com/Carolinapalacios95/portfolio.git)
+The webpage can be found at [My Portfolio](https://carolinapalacios95.github.io/portfolio/)
 
 >## Features
 
