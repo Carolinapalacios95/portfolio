@@ -32,7 +32,7 @@ header {
 } 
 
 .header {
-    display:inline-flex;
+    display:inline-block;
     flex-flow: wrap;
     flex-direction: row;
     padding: 15px;
@@ -44,7 +44,7 @@ header {
 }
 
 .header h1 {
-    display: inline;
+    display: inline-block;
     padding-left: 20px;
     font-family: var(--calibri-font);
     font-size: 50px;
@@ -158,7 +158,7 @@ main {
 
 .aside-resume {
     margin-top: 100%;
-    margin-bottom: 100%;
+    margin-bottom: 360em;
 }
 
 .aside-resume h2 {
@@ -223,31 +223,40 @@ footer {
     padding: 15px;
     background-color: #2a607c;
     border-radius: 10px;
+    display: block;
 }
 
 footer h2 {
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
     /* display: inline-block; */
     padding-left: 20px;
     font-size: 35px;
     color: #ffffff;
+    margin-top: .5em;
 }
 
 footer div {
-    display: flex;
+    
     justify-content: flex-end;
     display: inline-block;
     padding-top: 25px;
     font-family: var(--calibri-font);
     font-size: 20px;
+    margin-left: 3em;
+    margin-bottom: 1em;
 }
 
 footer div ul {
     list-style-type: none;
     color:#ffffff;
+ 
+
 }
 
 footer div ul li {
-    /* display: inline-block; */
+    display: inline-block;
     margin-left: 25px;
 }
 
