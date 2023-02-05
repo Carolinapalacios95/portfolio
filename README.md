@@ -16,7 +16,9 @@ The following image shows the web application's appearance and functionality:
 
 ![The top of the Portfolio webpage includes a header, a profile picture, an About Me section and a preview of my work.](./Assets/portfolio-demo-1.png)
 
-![The bottom portion of the Portfolio webpage includes an image of my resume, and contact information.](./Assets/portfolio-demo-2.png)
+![The middle portion of the Portfolio webpage includes a continuation of my work applications and an image of my resume.](./Assets/portfolio-demo-2.png)
+
+![The bottom portion of the Portfolio webpage includes an image of my resume, and contact information.](./Assets/portfolio-demo-3.png)
 
 
 
