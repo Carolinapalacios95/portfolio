@@ -218,8 +218,8 @@ and stack on top of each other when page is resized */
 
 /* Gave resume pic a set size & added a border */
 #resume-pic {
-    width: 750px;
-    height: 1000px;
+    width: 600px;
+    height: 750px;
     border: 7px;
     border-style: solid;
     border-radius: 5px;
@@ -245,7 +245,7 @@ footer h2 {
 }
 
 /* Added margins, padding & aligned content within footer */
-footer div {
+footer nav {
     justify-content: flex-end;
     display: inline-block;
     padding-top: 25px;
@@ -256,13 +256,13 @@ footer div {
 }
 
 /* Styled contact info list */
-footer div ul {
+footer nav ul {
     list-style-type: none;
     color:#ffffff;
 }
 
 /* Styled list element to appear inline next to each other */
-footer div ul li {
+footer nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
