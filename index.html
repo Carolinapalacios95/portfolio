@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-    <header>
+<body> 
+    <!-- Added header with h1 text, nav and unordered list for page links  -->
+    <header> 
         <section class="header">
         <h1>Carolina Palacios</h1>
         <nav>
             <div>
                 <ul>
-                     <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-work">My Work</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
@@ -27,6 +28,7 @@
     </header>
 
     <main>
+        <!-- Made a main sidebar to display when page is above 992 px -->
         <section class="aside">
             <div class="aside-about-me">
                 <h2>About <br>Me</h2>
@@ -39,10 +41,12 @@
             </div>
         </section>
 
+        <!-- Made other versions of sidebar to appear stacked above corresponding sections of text when page is below 992px  -->
         <section class="aside-small" #="aside-about-small">
             <h2>About Me</h2>
         </section>
 
+        <!-- Created section to insert profile picture, added alt text, and linked to assets folder  -->
         <section class="my-picture">
             <figure>
                 <img id="my-picture" height="300" alt="Profile picture of Carolina Palacios" 
@@ -50,6 +54,7 @@
             </figure>
         </section>
 
+        <!-- Added text section below picture to include About Me info -->
         <section class="about-me">
             <p>I'm a student at UNC and part-time administrative assistant. I'm from Queens, New York and I recently
                 moved from Durham to Fayetteville, NC. I enjoy hiking with my dog, traveling, and dancing. I've dreamt
@@ -57,10 +62,12 @@
                 fulfilling career that not only pays well, but is also in high demand all over the world.</p>
         </section>
 
+        <!-- Added corresponding other version of sidebar when page is resized -->
         <section class="aside-small" #="aside-work-small">
             <h2>My Work</h2>
         </section>
 
+        <!-- Added Section to include images & links to webpages of my work -->
         <section class="my-work">
             <article class = "card">
                 <h3>Horiseon</h3>
@@ -84,10 +91,12 @@
             </article>
         </section>
 
+        <!-- Added corrpesonding other version of sidebar when page is resized -->
         <section class="aside-small" #="aside-resume-small">
             <h2>Resume</h2>
         </section>
 
+        <!-- Added section to display my resume -->
         <section class="resume-section">
             <figure>
                 <img id="resume-pic" src="Assets/resume.png" alt="Screenshot of my resume">
@@ -95,6 +104,7 @@
         </section>
     </main>
 
+    <!-- Added footer to include Contact me section and list of links -->
     <footer>
         <h2 id="contact-me">Contact Me:</h2>
         <div>

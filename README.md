@@ -28,13 +28,9 @@ The webpage can be found at [My Portfolio](https://carolinapalacios95.github.io/
 
 *  Applied and showcased the core skills I've recently learned: flexbox, media queries, and CSS variables.
 
-* Followed best practices for class/id naming conventions, indentation, quality comments.
+* Followed best practices for class/id naming conventions, indentation, and quality comments.
 
 * Included a preview of my work, skills, and qualifications on a webpage made using the tools we've learned thus far in the coding bootcamp.
-
-## Credits
-
-The initial repo which motivated me to build this project can be found at [fullstack-may-2021 repository on Gitlab](https://unc.bootcampcontent.com/dbilenkin-KJyiXJ/fullstack-may-2021/tree/master).
 
 
 ## License
